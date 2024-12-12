@@ -1,0 +1,34 @@
+{
+  "name": "typequest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL",
+  "devDependencies": {
+    "@total-typescript/exercise-cli": "^0.11.0",
+    "@types/node": "^18.6.5",
+    "cross-fetch": "^3.1.5",
+    "jsdom": "^25.0.0",
+    "prettier": "^3.0.0",
+    "ts-toolbelt": "^9.6.0",
+    "typescript": "^5.4.5",
+    "vite-tsconfig-paths": "^5.0.0",
+    "vitest": "^2.0.0"
+  },
+  "scripts": {
+    "exercise": "tt-cli run",
+    "e": "npm run exercise",
+    "solution": "tt-cli run --solution",
+    "s": "npm run solution",
+    "ci": "(cd scripts/tests && npx vitest run)",
+    "prepare": "tt-cli prepare-stackblitz",
+    "update-snapshots": "(cd scripts/tests && npx vitest run -u)",
+    "e-01": "tt-cli run 01",
+    "s-01": "tt-cli run 01 --solution",
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1",
+    "zod": "^3.17.10"
+  },
+  "type": "module"
+}
