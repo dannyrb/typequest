@@ -1,3 +1,5 @@
+This is a fork of [Matt's](https://twitter.com/mattpocockuk) Workshop. Don't hesitate to support him or join the communities he manages if you find this content helpful!
+
 ## Quickstart
 
 Clone this repo or [open in Gitpod](https://gitpod.io/#https://github.com/total-typescript/type-transformations-tutorial).
@@ -27,7 +29,7 @@ This course encourages **active, exploratory learning**. In the video, I'll expl
 
 You'll know if you've succeeded because the tests will pass.
 
-**If you succeed**, or **if you get stuck**, unpause the video and check out the `*.solution`. You can see if your solution is better or worse than mine!
+**If you succeed**, or **if you get stuck**, check out the `*.solution`. You can see if your solution is better or worse than mine!
 
 ## Acknowledgements
 
