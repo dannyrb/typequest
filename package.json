@@ -23,7 +23,7 @@
     "prepare": "tt-cli prepare-stackblitz",
     "update-snapshots": "(cd scripts/tests && npx vitest run -u)",
     "e-01": "tt-cli run 01",
-    "s-01": "tt-cli run 01 --solution",
+    "s-01": "tt-cli run 01 --solution"
   },
   "dependencies": {
     "@types/express": "^4.17.13",
